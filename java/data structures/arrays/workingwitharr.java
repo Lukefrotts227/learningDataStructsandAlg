@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class workingwitharr{
 
-    public static void Main(String args[]){
+    public static void main(String args[]){
         Scanner stdin = new Scanner(System.in); 
 
         int size; 
@@ -18,6 +18,12 @@ class workingwitharr{
             System.out.print("Enter an element of the array: "); 
             cars[i] = stdin.nextLine(); 
         }
+
+        for(String car : cars){
+            System.out.println(car); 
+        }
+
+
 
 
     }
