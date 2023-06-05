@@ -5,7 +5,7 @@ public class resizearray {
         Scanner stdin = new Scanner(System.in); 
         int size; 
 
-        System.out.println("How big do you want the array to be: "); 
+        System.out.print("How big do you want the array to be: "); 
         size = stdin.nextInt(); 
         stdin.nextLine(); 
 
@@ -14,7 +14,7 @@ public class resizearray {
         // build the intial array
 
         for(int i = 0; i < size; i++){
-            System.out.println("Enter an element of the array: "); 
+            System.out.print("Enter an element of the array: "); 
             stuff[i] = stdin.nextLine();
         }
         boolean keepItUp = true; 
@@ -40,7 +40,7 @@ public class resizearray {
 
             else if(choice == 2){
                 // important logic
-                System.out.println("Enter the element you wish to add: "); 
+                System.out.print("Enter the element you wish to add: "); 
                 temp = stdin.nextLine(); 
                 String[] newstuff = new String[size + 1];
 
