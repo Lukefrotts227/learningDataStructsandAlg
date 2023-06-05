@@ -23,9 +23,10 @@ public class resizearray {
 
         while(keepItUp == true){
             System.out.print("Enter 0 to print the arrry\nEnter 1 to print the size of the array\n");
-            System.out.print("Enter 2 to add an element to the array\n Enter 3 to exit the program\n"); 
+            System.out.print("Enter 2 to add an element to the array\nEnter 3 to exit the program\n"); 
             System.out.println("Enter your choice here: "); 
             choice = stdin.nextInt(); 
+            stdin.nextLine(); 
 
             if(choice == 0){
                 System.out.print(getArr(stuff)); 
