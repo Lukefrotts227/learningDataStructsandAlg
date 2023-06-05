@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class workingwitharr{
+public class workingwitharr{
 
     public static void main(String args[]){
         Scanner stdin = new Scanner(System.in); 
@@ -9,6 +9,7 @@ class workingwitharr{
 
         System.out.print("How big do you want the array to be: "); 
         size = stdin.nextInt(); 
+        stdin.nextLine(); 
         
 
         // creating the array
@@ -25,6 +26,7 @@ class workingwitharr{
         }
 
         System.out.println("The length of the array is: " + cars.length); 
+        stdin.close(); 
 
 
     }
