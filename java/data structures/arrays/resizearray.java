@@ -23,6 +23,13 @@ public class resizearray {
     }
 
     static String getArr(String arr[]){
+        String str =""; 
+
+        for(String stuffs : arr){
+            str += stuffs; 
+            str += "\n"; 
+        }
+        return str; 
 
     }
 
