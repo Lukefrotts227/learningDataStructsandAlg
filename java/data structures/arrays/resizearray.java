@@ -31,11 +31,20 @@ public class resizearray {
             }
 
             else if(choice == 1){
+                System.out.println("The size of the arra is: " + size); 
 
             }
 
             else if(choice == 2){
-                
+
+            }
+
+            else if (choice == 3){
+                keepItUp = false;
+
+            }
+            else{
+                System.out.println("INVALID CHOICE: please try again "); 
             }
 
         }
