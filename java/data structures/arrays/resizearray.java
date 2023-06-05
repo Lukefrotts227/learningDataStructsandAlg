@@ -17,6 +17,28 @@ public class resizearray {
             System.out.println("Enter an element of the array: "); 
             stuff[i] = stdin.nextLine();
         }
+        boolean keepItUp = true; 
+        int choice; 
+
+        while(keepItUp == true){
+            System.out.print("Enter 0 to print the arrary\nEnter 1 to print the size of the array\n");
+            System.out.print("Enter 2 to add an element to the array\n Enter 3 to exit the program\n"); 
+            System.out.println("Enter your choice here: "); 
+            choice = stdin.nextInt(); 
+
+            if(choice == 0){
+
+            }
+
+            else if(choice == 1){
+
+            }
+
+            else if(choice == 2){
+                
+            }
+
+        }
 
 
 
