@@ -37,7 +37,7 @@ public class resizearray {
             }
 
             else if(choice == 2){
-                
+
 
             }
 
@@ -50,6 +50,7 @@ public class resizearray {
             }
 
         }
+        System.out.println("Arrivderci!!!!!!!"); 
 
 
 
