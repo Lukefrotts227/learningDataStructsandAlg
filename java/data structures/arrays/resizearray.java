@@ -19,6 +19,7 @@ public class resizearray {
         }
         boolean keepItUp = true; 
         int choice; 
+        String temp; 
 
         while(keepItUp == true){
             System.out.print("Enter 0 to print the arrry\nEnter 1 to print the size of the array\n");
@@ -37,6 +38,15 @@ public class resizearray {
             }
 
             else if(choice == 2){
+                // important logic
+                System.out.println("Enter the element you wish to add: "); 
+                temp = stdin.nextLine(); 
+                String[] newstuff = new String[size + 1];
+
+                newstuff[size] = temp; 
+                stuff = newstuff; 
+
+                size = size + 1; 
 
 
             }
