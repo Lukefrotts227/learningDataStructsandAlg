@@ -1,5 +1,9 @@
 import java.util.ArrayList; 
 
-public interface arraylisttintro {
-    ArrayList<String> cars = new ArrayList<>(); 
+public class arraylisttintro {
+    public static void main(String[] args){
+        ArrayList<String> cars = new ArrayList<>(); 
+
+        cars.add("BMW"); 
+    }
 }
