@@ -9,5 +9,8 @@ public class arraylisttintro {
         cars.add("Kia"); 
 
         System.out.println(cars); 
+        cars.add("Mazda"); 
+        System.out.println(cars.get(3)); 
+        
     }
 }
