@@ -5,5 +5,9 @@ public class arraylisttintro {
         ArrayList<String> cars = new ArrayList<>(); 
 
         cars.add("BMW"); 
+        cars.add("Ford"); 
+        cars.add("Kia"); 
+
+        System.out.println(cars); 
     }
 }
