@@ -17,12 +17,18 @@ public class multdim {
             while(keepGoing2){
                 System.out.print("Enter the number: "); 
                 addon = stdin.nextInt(); 
+                build.add(addon); 
                 stdin.nextLine(); 
                 System.out.println("Do you want to keep adding to this array: ");  
                 temp = stdin.nextLine(); 
                 keepGoing2 = keepItUp(temp);
 
             }
+            myList.add(build); 
+            System.out.println("Do you want to keep building the array: "); 
+            temp = stdin.nextLine(); 
+            keepGoing1 = keepItUp(temp); 
+
 
         }
         
