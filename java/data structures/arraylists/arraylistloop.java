@@ -19,6 +19,7 @@ public class arraylistloop {
             keepGoing = keepItUp(temp2); 
         }
         stdin.close(); 
+        printArr(item);
 
     }
 
@@ -32,6 +33,10 @@ public class arraylistloop {
 
     }
     static void printArr(ArrayList<String> ite){
-        
+        // using a foreach loop to print out the arrayList
+
+        for(String cert : ite){
+            System.out.println(cert + " "); 
+        }
     }
 }
