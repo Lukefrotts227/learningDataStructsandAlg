@@ -19,18 +19,18 @@ public class multdim {
                 addon = stdin.nextInt(); 
                 build.add(addon); 
                 stdin.nextLine(); 
-                System.out.println("Do you want to keep adding to this array: ");  
+                System.out.print("Do you want to keep adding to this array: ");  
                 temp = stdin.nextLine(); 
                 keepGoing2 = keepItUp(temp);
 
             }
             myList.add(build); 
-            System.out.println("Do you want to keep building the array: "); 
+            System.out.print("Do you want to keep building the array: "); 
             temp = stdin.nextLine(); 
             keepGoing1 = keepItUp(temp); 
-
-
         }
+
+        stdin.close(); 
         
 
 
