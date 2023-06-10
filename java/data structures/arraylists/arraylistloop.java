@@ -31,4 +31,7 @@ public class arraylistloop {
         }
 
     }
+    static void printArr(ArrayList<String> ite){
+        
+    }
 }
