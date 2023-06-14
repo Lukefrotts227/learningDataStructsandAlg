@@ -4,4 +4,8 @@
 
 # what is happening 
 - beginning in java 
+- going through the data structure first
+- then moving on to algorithms 
 - will move on to other languages 
+
+
