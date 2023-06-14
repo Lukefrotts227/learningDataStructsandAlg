@@ -46,4 +46,12 @@ public class multdim {
 
     }
 
+    static String superPrint(ArrayList<ArrayList<Integer>> list){
+        String str = "";
+
+
+        return str; 
+
+    }
+
 }
